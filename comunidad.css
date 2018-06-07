@@ -46,11 +46,11 @@ nav li {
 }
 
 #cabecera {
-      background-image: url("cabecera.jpg");
+      background-image: url("footer.png");
       background-position: center;
       background-size: cover;
       width: 80%;
-      height: 800px;
+      height: 200px;
       margin: auto;
 	display: flex;
 	justify-content: center;
