@@ -99,6 +99,13 @@ h4 {
       font-weight: normal;
 }
 
+hr {
+      display: grid;
+      grid-column: 1 / 3;
+      width: 25%;
+      margin: 20px auto;
+}
+
 #filtro {
       height: 30px;
       border: 1px solid black;
@@ -118,7 +125,7 @@ h4 {
       display: grid;
       grid-column: 1 / 3;
       height: 200px;
-      margin: 30px;
+      margin: 40px;
 }
 
 .entrada1 {
@@ -131,7 +138,7 @@ h4 {
       display: grid;
       grid-column: 1 / 3;
       height: 200px;
-      margin: 30px;
+      margin: 40px;
 }
 
 .imgentrada2 {
@@ -143,6 +150,14 @@ h4 {
       padding: 0 20px ;
       text-align: end;
       border-left: 1px solid black;
+}
+
+#sig {
+      margin: 20px 20px 50px 20px;
+      display: grid;
+      grid-column: 2/3;
+      text-align: left;
+      font-size: 20px;
 }
 
 /* / M A I N */
