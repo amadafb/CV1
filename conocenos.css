@@ -1,31 +1,32 @@
-
-/* Fondo de pantalla*/
-
 body{
-      font-family: Arial, Helvetica, Verdana, sans-serif;
-      width: 100%;
-      height: 100%;
-      background: url('cabecera.jpg') 50% 50% no-repeat;
-      background-size: cover;
+      font-family: "Lucida Console", Monaco, monospace;
+      background-image:url("cv.jpg");
+      background-attachment: fixed;
+      background-position: center;
+      background-size: 120%;
 }
 
-/* Contenido completo */
-
-#contenedorp {
-      background-color: white;
-      margin: auto;
-      background-position: center; 
-      width: 85%;
+p {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
 }
 
-/* Header */
+
+/* H E A D E R */
+
 
 header {
+      background-color: white;
+      width: 80%;
+      margin: auto;
 	display: flex;
 	justify-content: center;
       align-items: center;
-      padding: 5px;
-      box-shadow: 5px 5px 20px grey;
+}
+
+header * {
+      display: inline;
+      text-align: center;
 }
 
 #logo {
@@ -34,74 +35,154 @@ header {
 
 /* Menú header */
 
-a{
+a {
       text-decoration: none;
-      color: black;      
-}
-
-li {
-      display: inline-flex;
-      padding: 20px;
+      text-align: center;
+      color: black;   
 }
 
 nav li {
       color: black;   
+      text-align: center;
       letter-spacing: 3px;
-      padding: 10px;
+      margin-right: 20px;
 }
 
-/* Contenido */
+#cabecera {
+      background-image: url("footer.jpg");
+      background-position: center;
+      background-size: cover;
+      width: 80%;
+      height: 300px;
+      margin: auto;
+	display: flex;
+	justify-content: center;
+      align-items: center;
+}
+
+/* / H E A D E R */
+
+/* M A I N */
+
+main {
+      background-color: white;
+      width: 80%;
+      margin: auto;
+      display: inline;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+}
 
 h1 {
-      text-align: center;
-      letter-spacing: 10px;
-      margin: 50px;
-}
-
-hr{
-      width: 50%;
-}
-
-#contenedor {
-      background-color: gray;
-      width: 85%;
-      background-position: center; 
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-column: 1 / 3;
       text-align: center;
-      margin: 50px auto ;
+      letter-spacing: 5px;
+
 }
 
 h2 {
+      display: grid;
+      grid-column: 1 / 3;
+      letter-spacing: 6px;
+      margin: 25px;
+
+}
+
+h3 {
       letter-spacing: 2px;
+      margin: 10px 0px;
 }
 
-#que {
-      padding: 20px;
-      background-color: white;
-      justify-content: left;
+h4 {
+      font-size: 14px;
+      font-weight: normal;
 }
 
-#entradas {
-      padding: 20px;
-      background-color: white;
-      justify-content: center;
+hr {
+      display: grid;
+      grid-column: 1 / 3;
+      width: 25%;
+      margin: 20px auto;
 }
 
-#contacto {
-      padding: 20px;
-
-      background-color: white;
-      justify-content: right;
+.izq {
+      display: flex;
+      grid-column: 2 / 3;
+      align-items: flex-end;
+      align-content: flex-end;
+      align-self: flex-end;
 }
 
-/* Footer */
+.que {
+      display: grid;
+      grid-column: 1 / 3;
+      height: 200px;
+      margin: 40px;
+}
+
+.que1 {
+      grid-column: 2 / 3;
+      padding: 0 20px ;
+      border-right: 1px solid black;
+}
+
+.como {
+      display: grid;
+      grid-column: 1 / 3;
+      height: 200px;
+      margin: 40px;
+}
+
+.imgentrada2 {
+      grid-column: 3 / 4;
+}
+
+.como1 {
+      grid-column: 1/3;
+      padding: 0 20px ;
+      text-align: end;
+      border-left: 1px solid black;
+}
+
+
+/* / M A I N */
+
+/* F O O T E R */
 
 footer {
-      background-color: white;
-      height: 70px;
+      background-image: url("footer.jpg");
+      background-position: center;
+      background-size: 100%;
+      width: 80%;
+      height: 80px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column: 1 / 3;
+      margin: auto;
+}
+
+.footerRRSS {
+      grid-column: 1 / 2;
       display: flex;
-	justify-content: center;
       align-items: center;
-      box-shadow: 0 0 20px grey;
+}
+
+.footerRRSS a {
+      margin: 0 10px;
+      display: flex;
+      align-items: center;
+}
+
+.footerRRSS p {
+      margin: 0;
+}
+
+.h4 {
+      grid-column: 2 / 3;
+      grid-row: 1 / 3;
+      font-size: 18px;
+      letter-spacing: 4px;
+      display: flex;
+      align-items: center;
 }
