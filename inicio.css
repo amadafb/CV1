@@ -151,15 +151,17 @@ h4 {
 
 /* C O N E C T A */
 
-#conecta{
-      grid-column: 1 / 3 ;
-}
 
 form {
-      display: grid;
       grid-column: 1 / 2;
-      margin: 20px;
+      margin: 40px;
       letter-spacing: 2px;
+}
+
+#imgform {
+      grid-column: 2/3;
+      display: inline-block;
+      margin: 0 auto;
 }
 
 /* F O O T E R */
