@@ -19,8 +19,8 @@
 
             <!--logo-->
             <div id="logo">
-                  <a target="_black" href="inicio.html">
-                        <img src="logonegro.png" alt="ComunidadVenezolana" height="70">
+                  <a target="_blank" href="inicio.html">
+                        <img src="logonegro.png" alt="ComunidadVenezolana" height="60">
                   </a>
             </div>
 
@@ -29,16 +29,16 @@
                   <ul>
                         <!--título CEO???-->
                         <li>
-                              <a target="_black" href="conocenos.html">Conócenos</a>
+                              <a target="_blank" href="conocenos.html">Conócenos</a>
                         </li>
                         <li>
-                              <a target="_black" href="comunidad.html">Comunidad</a>
+                              <a target="_blank" href="comunidad.html">Comunidad</a>
                         </li>
                         <li>
-                              <a target="_black" href="publicidad.html">Publicidad</a>
+                              <a target="_blank" href="publicidad.html">Publicidad</a>
                         </li>
                         <li>
-                              <a target="_black" href="contacto.html">Contacto</a>
+                              <a target="_blank" href="contacto.html">Contacto</a>
                         </li>
                   </ul>
             </nav>
@@ -69,8 +69,6 @@
       <main>
 
             <h1>COMUNIDAD VENEZOLANA</h1>
-            <hr>
-
             <!-- entradas comunidad -->
 
             <h2>| COMUNIDAD</h2>
@@ -83,7 +81,7 @@
                               et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                               nisi ut aliquip ex ea commodo consequat."
                         </p>
-                        <a href="">Leer más ></a>
+                        <a target="_blank" href="">Leer más ></a>
                   </div>
             </div>
 
@@ -94,7 +92,7 @@
                               et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                               nisi ut aliquip ex ea commodo consequat. "
                         </p>
-                        <a href="">Leer más ></a>
+                        <a target="_blank" href="">Leer más ></a>
                   </div>
                   <div class="imgentrada2">
                         <img src="entrada2.jpg" alt="" height="200px">
@@ -126,21 +124,26 @@
 
             <h2>| CONÉCTATE</h2>
 
-            <form action="" target="_blank">
-                  <p>Nombre:
-                        <br>
-                        <input type="text" name="nombre" rows="1" cols="40" placeholder="Nombre">
-                  </p>
-                  <p>Correo:
-                        <br>
-                        <input type="text" name="correo" rows="1" cols="40" placeholder="correo@ejemplo.com">
-                  </p>
-                  <p>
-                        Mensaje
-                        <br>
-                        <textarea name="mensaje" rows="4" cols="40"></textarea>
-                  </p>
-            </form>
+            <div class="container">
+                  <form action="/action_page.php">
+                        <div class="row">
+                              <label for="fname">Nombre</label>
+                              <input type="text" id="fname" name="firstname" placeholder="Nombre">
+                        </div>
+                        <div class="row">
+                              <label for="lname">Correo</label>
+                              <input type="text" id="lname" name="lastname" placeholder="ejemplo@correo.com">
+                        </div>
+                        <div class="row">
+                              <label for="subject">Mensaje</label>
+                              <textarea id="subject" name="subject" placeholder="Hola!" style="height:100px"></textarea>
+                        </div>
+                        <div class="row">
+                              <input type="submit" value="Enviar!">
+                        </div>
+                  </form>
+            </div>
+            
             <div id="imgform">
                   <img src="conecta.jpg" alt="conecta" height="250px">
             </div>

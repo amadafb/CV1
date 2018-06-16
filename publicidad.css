@@ -19,6 +19,7 @@ p {
 
 header {
       background-color: white;
+      height: 80px;
       width: 80%;
       margin: auto;
 	display: flex;
@@ -101,13 +102,6 @@ h4 {
       font-weight: normal;
 }
 
-hr {
-      display: grid;
-      grid-column: 1 / 4;
-      width: 25%;
-      margin: 20px auto;
-}
-
 #filtro {
       height: 30px;
       border: 1px solid black;
@@ -117,8 +111,7 @@ hr {
 
 .publicidad1 {
       grid-column: 1 / 2;
-      margin: 20px;
-      padding: 10px;
+      margin: 30px;
       align-self: center;
       text-align: center;
       justify-items: center;
@@ -127,8 +120,7 @@ hr {
 
 .publicidad2 {
       grid-column: 2 / 3;
-      margin: 20px;
-      padding: 10px;
+      margin: 30px;
       align-self: center;
       text-align: center;
       justify-items: center;
@@ -139,8 +131,7 @@ hr {
 
 .publicidad3 {
       grid-column: 3 / 4;
-      margin: 20px;
-      padding: 10px;
+      margin: 30px;
       align-self: center;
       text-align: center;
       justify-items: center;

@@ -20,7 +20,7 @@
             <!--logo-->
             <div id="logo">
                   <a target="_black" href="inicio.html">
-                        <img src="logonegro.png" alt="ComunidadVenezolana" height="70">
+                        <img src="logonegro.png" alt="ComunidadVenezolana" height="60">
                   </a>
             </div>
 
@@ -69,21 +69,29 @@
       <main>
             <h2>| CONÉCTATE CON TU COMUNIDAD</h2>
 
-            <form action="" target="_blank">
-                  <p>Nombre:
-                        <br>
-                        <input type="text" name="nombre" rows="1" cols="40" placeholder="Nombre">
-                  </p>
-                  <p>Correo:
-                        <br>
-                        <input type="text" name="correo" rows="1" cols="40" placeholder="correo@ejemplo.com">
-                  </p>
-                  <p>
-                        Mensaje
-                        <br>
-                        <textarea name="mensaje" rows="4" cols="40"></textarea>
-                  </p>
-            </form>
+
+            <div class="container">
+                  <form action="/action_page.php">
+                        <div class="row">
+                              <label for="fname">Nombre</label>
+                              <input type="text" id="fname" name="firstname" placeholder="Nombre">
+                        </div>
+                        <div class="row">
+                              <label for="lname">Correo</label>
+                              <input type="text" id="lname" name="lastname" placeholder="ejemplo@correo.com">
+                        </div>
+                        <div class="row">
+                              <label for="subject">Mensaje</label>
+                              <textarea id="subject" name="subject" placeholder="Hola!" style="height:100px"></textarea>
+                        </div>
+                        <div class="row">
+                              <input type="submit" value="Enviar!">
+                        </div>
+                  </form>
+            </div>
+
+
+
             <div id="infoform">
                   <ul type="circle">
                         <li>Publica ofertas de trabajo</li>
